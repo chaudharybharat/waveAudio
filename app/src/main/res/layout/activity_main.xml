@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="75dp"
+            android:text="@string/standard_view"
+            android:textColor="@color/trans_white"
+            android:textSize="12sp" />
+
+        <Chronometer
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/textWhite"
+            android:textSize="35sp" />
+
+        <bookmark.com.wavecustome.waveanimation.AndroWaveView
+            android:id="@+id/aw_wave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            app:waveAmount="1"
+            app:waveColor="@color/textWhite"
+            app:waveFillColor="@color/wave_bg2"
+            app:waveFrequency="5.0"
+            app:waveHeight="65dp"
+            app:waveInitialPhaseOffset="-10"
+            app:wavePhaseShift="-0.07"
+            app:waveVerticalPosition="2" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/btn_animationSwitch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:src="@drawable/play"
+        android:text="@string/animation_start"
+        android:textColor="@color/textWhite" />
+
+    <ImageView
+        android:id="@+id/btn_stopSwitch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@id/btn_animationSwitch"
+        android:src="@drawable/stop_button"
+        android:text="@string/animation_start"
+        android:textColor="@color/textWhite" />
+
+    <ImageView
+        android:id="@+id/btn_favorite"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toStartOf="@id/btn_animationSwitch"
+        android:src="@drawable/unfavorite_button"
+        android:text="@string/animation_start"
+        android:textColor="@color/textWhite" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WaveAnimation</string>
+
+    <!-- Wave -->
+    <string name="animation_start">Animation Start</string>
+    <string name="animation_stop">Animation Stop</string>
+
+    <!-- Timer format-->
+    <string name="standard_view">Standard quality</string>
+</resources>

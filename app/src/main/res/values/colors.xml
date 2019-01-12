@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent2">#FF4081</color>
+    <color name="colorAccent">#F44336</color>
+
+    <!-- Wave -->
+    <color name="animationSwitchBg">#4CAF50</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="trans_white">#a7ffffff</color>
+    <color name="wave_bg">#26cce3</color>
+    <color name="wave_bg2">#A5CDD6</color>
+    <color name="wave_bg3">#bf4ccefe</color>
+    <color name="frame_upperpart_bg">#169EAC</color>
+
+</resources>
